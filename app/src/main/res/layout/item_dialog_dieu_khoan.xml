@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Điều khoản của FitFeet"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fadeScrollbars="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="22dp"
+                android:text="1.FitFeet không cung cấp dịch vụ đổi trả và thanh toán trực tuyến."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineHeight="22dp"
+                android:text="2.Nếu sản phẩm nhận được không đáp ứng mong muốn của quý khách, xin vui lòng không gỡ bỏ tem mác và liên hệ với chúng tôi ngay hoặc đến trực tiếp cửa hàng để được hỗ trợ trong việc đổi sản phẩm. Chúng tôi cam kết giải quyết vấn đề của bạn một cách nhanh chóng và hiệu quả."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineHeight="22dp"
+                android:text="3.Thời hạn đổi trả: Chúng tôi chấp nhận việc đổi trả sản phẩm trong vòng 7 ngày kể từ ngày nhận hàng. Quý khách vui lòng liên hệ với chúng tôi để được hướng dẫn cụ thể về quy trình đổi trả trong khoảng thời gian quy định."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineHeight="22dp"
+                android:text="4.Điều kiện đổi trả: Sản phẩm cần được giữ nguyên trạng, không bị sử dụng, không bị hư hỏng và vẫn còn tem mác, hộp đựng hoặc bao bì ban đầu. Chúng tôi có quyền từ chối đổi trả nếu sản phẩm không đáp ứng các điều kiện trên."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineHeight="22dp"
+                android:text="5.Thanh toán và hoàn tiền: Trong trường hợp sản phẩm không còn hàng thay thế, chúng tôi sẽ hoàn lại số tiền thanh toán ban đầu qua phương thức thanh toán ban đầu của quý khách."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineHeight="22dp"
+                android:text="Những điều khoản này nhằm mục đích cung cấp hướng dẫn chi tiết hơn và đảm bảo quý khách hiểu rõ về quy trình đổi trả sản phẩm của FitFeet."
+                android:textColor="#D9000000"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/tvCloseDieuKhoanDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="ĐÓNG"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

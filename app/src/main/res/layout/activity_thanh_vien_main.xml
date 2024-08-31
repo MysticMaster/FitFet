@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThanhVienMainActivity">
+
+    <FrameLayout
+        android:id="@+id/flTVMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bnvTVMain"
+        android:background="#40C0C0C0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnvTVMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:itemBackground="@android:color/transparent"
+        app:itemHorizontalTranslationEnabled="true"
+        app:itemIconSize="25dp"
+        app:itemRippleColor="#C0C0C0"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="selected"
+        app:menu="@menu/menu_bottom_navigation_tv_main" />
+
+</RelativeLayout>

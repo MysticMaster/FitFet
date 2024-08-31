@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/itemDetailGiay"
+        android:title="Hiển thị" />
+
+    <item
+        android:id="@+id/itemDSGiayCT"
+        android:title="Danh sách phân loại" />
+
+    <item
+        android:id="@+id/itemDSBinhLuan"
+        android:title="Danh sách bình luận" />
+
+</menu>

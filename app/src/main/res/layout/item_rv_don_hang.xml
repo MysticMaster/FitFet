@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="#80C0C0C0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Loading..."
+            android:id="@+id/tvKHMaDonHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:text="Loading..."
+            android:id="@+id/tvKHLoaiNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvKHSoSanPham"
+            android:layout_width="wrap_content"
+            android:text="Loading..."
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:text="Loading..."
+            android:id="@+id/tvKHTongThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E80B0B"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

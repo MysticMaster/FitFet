@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_sieu_to"
+        android:label="FitFeet"
+        android:roundIcon="@drawable/logo_sieu_to"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobile_Project_01"
+        tools:targetApi="31">
+        <activity
+            android:name=".QLDetailGiayChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLThuongHieuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimKiemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLDanhSachBinhLuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLDanhSachTinNhanKHActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CSKHActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExtraFunctionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailUpdateThongTinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailAnhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GioHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLHienThiDonHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLDanhSachDonHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KHHienThiDonHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLGiayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KhachHangMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhVienMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLGiayChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KHHienThiGiayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

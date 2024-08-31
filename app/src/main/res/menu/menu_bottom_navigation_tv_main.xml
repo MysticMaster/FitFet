@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/danhSachSP"
+        android:icon="@drawable/ic_product"
+        android:title="Sản phẩm" />
+
+    <item
+        android:id="@+id/donHang"
+        android:icon="@drawable/ic_cart_list"
+        android:title="Đơn hàng" />
+
+    <item
+        android:id="@+id/lichSu"
+        android:icon="@drawable/ic_lich_su"
+        android:title="Lịch sử" />
+
+    <item
+        android:id="@+id/thongKe"
+        android:icon="@drawable/ic_chart"
+        android:title="Thống kê" />
+
+    <item
+        android:id="@+id/taiKhoanTV"
+        android:icon="@drawable/ic_account"
+        android:title="Tài khoản" />
+
+</menu>
